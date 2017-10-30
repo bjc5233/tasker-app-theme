@@ -31,7 +31,7 @@
 
 
 ### 预览
-<div align=center><img height="960" width="570" src="https://github.com/bjc5233/tasker-app-theme/raw/master/alipay/resources/Screenshot_2017-10-30-14-14-46-179"/></div>
+<div align=center><img height="960" width="570" src="https://github.com/bjc5233/tasker-app-theme/raw/master/alipay/resources/Screenshot_2017-10-30-14-14-46-179.png"/></div>
 
 
     
@@ -48,9 +48,9 @@
 
 
 ### 预览
-<div align=center><img height="960" width="570" src="https://github.com/bjc5233/tasker-app-theme/raw/master/coolapk/resources/Screenshot_2017-10-30-14-08-07-454"/></div>
+<div align=center><img height="960" width="570" src="https://github.com/bjc5233/tasker-app-theme/raw/master/coolapk/resources/Screenshot_2017-10-30-14-08-07-454.png"/></div>
 <br>
-<div align=center><img height="960" width="570" src="https://github.com/bjc5233/tasker-app-theme/raw/master/coolapk/resources/Screenshot_2017-10-30-14-13-16-575"/></div>
+<div align=center><img height="960" width="570" src="https://github.com/bjc5233/tasker-app-theme/raw/master/coolapk/resources/Screenshot_2017-10-30-14-13-16-575.png"/></div>
 
   
   
@@ -118,7 +118,7 @@
 
 
 ### 预览
-<div align=center><img height="960" width="540" src="https://github.com/bjc5233/tasker-app-theme/raw/master/qq/resources/Screenshot_2017-10-30-14-20-53-966"/></div>
+<div align=center><img height="960" width="540" src="https://github.com/bjc5233/tasker-app-theme/raw/master/qq/resources/Screenshot_2017-10-30-14-20-53-966.png"/></div>
 
 	 
 	 
