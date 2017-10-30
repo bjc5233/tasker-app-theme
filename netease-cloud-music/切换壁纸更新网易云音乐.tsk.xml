@@ -1,0 +1,107 @@
+<TaskerData sr="" dvi="1" tv="4.9u3m">
+	<Task sr="task83">
+		<cdate>1503560337361</cdate>
+		<edate>1506312434976</edate>
+		<id>83</id>
+		<nme>切换壁纸更新网易云音乐</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<label>配置根路径</label>
+			<Str sr="arg0" ve="3">%root_path</Str>
+			<Str sr="arg1" ve="3">/storage/sdcard1/software_me/tasker/neteaseCloudMusic</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<label>配置系统根路径</label>
+			<Str sr="arg0" ve="3">%system_root_path</Str>
+			<Str sr="arg1" ve="3">/data/data/com.netease.cloudmusic</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>410</code>
+			<Str sr="arg0" ve="3">%root_path/theme.xml</Str>
+			<Str sr="arg1" ve="3">%skin_conf_xml2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>404</code>
+			<Str sr="arg0" ve="3">%root_path/theme.xml</Str>
+			<Str sr="arg1" ve="3">%skin_conf_path</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<label>配置皮肤背景名[必须先手动自定义皮肤]</label>
+			<Str sr="arg0" ve="3">%skin_wallpaper_path</Str>
+			<Str sr="arg1" ve="3">%system_root_path/files/theme/custom_theme_bg1505273519887</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<label>配置背景模糊程度[0-30]</label>
+			<Str sr="arg0" ve="3">%skin_wallpaper_blur_degree</Str>
+			<Str sr="arg1" ve="3">8</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%skin_conf_path</Str>
+			<Str sr="arg1" ve="3">%system_root_path/shared_prefs/theme4.xml</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>18</code>
+			<label>关闭网易云音乐</label>
+			<App sr="arg0">
+				<appClass>com.netease.cloudmusic.activity.LoadingActivity</appClass>
+				<appPkg>com.netease.cloudmusic</appPkg>
+				<label>网易云音乐</label>
+			</App>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>404</code>
+			<Str sr="arg0" ve="3">/data/system/users/0/wallpaper</Str>
+			<Str sr="arg1" ve="3">%skin_wallpaper_path</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>404</code>
+			<Str sr="arg0" ve="3">%system_root_path/shared_prefs/theme4.xml</Str>
+			<Str sr="arg1" ve="3">%root_path/theme.xml</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>417</code>
+			<Str sr="arg0" ve="3">%root_path/theme.xml</Str>
+			<Str sr="arg1" ve="3">%skin_conf_xml</Str>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>129</code>
+			<label>重新设置模糊值</label>
+			<Str sr="arg0" ve="3">var xmlStr = skin_conf_xml;  
+var parser = new DOMParser();  
+var xmlDoc = parser.parseFromString(xmlStr,"text/xml");  
+var blurEle = xmlDoc.getElementsByName("custom_bg_blur")
+blurEle[0].setAttribute("value", skin_wallpaper_blur_degree)
+var serializer = new XMLSerializer();
+var skin_conf_xml2 = serializer.serializeToString(xmlDoc);</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+	</Task>
+</TaskerData>
