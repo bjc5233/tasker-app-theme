@@ -1,0 +1,85 @@
+<TaskerData sr="" dvi="1" tv="4.9u3m">
+	<Task sr="task35">
+		<cdate>1506177452701</cdate>
+		<edate>1507003195497</edate>
+		<id>35</id>
+		<nme>theme-coolapk</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<label>配置根路径</label>
+			<Str sr="arg0" ve="3">%root_path</Str>
+			<Str sr="arg1" ve="3">/storage/sdcard1/software_me/tasker/themeCoolapk</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<label>配置系统根路径</label>
+			<Str sr="arg0" ve="3">%root_path_system</Str>
+			<Str sr="arg1" ve="3">/data/data/com.coolapk.market/shared_prefs</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<label>配置颜色</label>
+			<Str sr="arg0" ve="3">%bar_color</Str>
+			<Str sr="arg1" ve="3">%WALLPAPER_COLOR_HEX</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>404</code>
+			<Str sr="arg0" ve="3">%root_path_system/preferences.xml</Str>
+			<Str sr="arg1" ve="3">%root_path/preferences.xml</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>417</code>
+			<Str sr="arg0" ve="3">%root_path/preferences.xml</Str>
+			<Str sr="arg1" ve="3">%xml</Str>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>129</code>
+			<label>设置颜色值</label>
+			<Str sr="arg0" ve="3">var xmlStr = xml;
+bar_color = parseInt("0x" + bar_color) - parseInt("0xFFFFFF") -1;
+var parser = new DOMParser();  
+var xmlDoc = parser.parseFromString(xmlStr,"text/xml");  
+var colorEle = xmlDoc.getElementsByName("primary_color");
+colorEle[0].setAttribute("value", bar_color);
+var serializer = new XMLSerializer();
+var xml2 = serializer.serializeToString(xmlDoc);</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>410</code>
+			<Str sr="arg0" ve="3">%root_path/preferences.xml</Str>
+			<Str sr="arg1" ve="3">%xml2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>18</code>
+			<label>关闭酷安</label>
+			<App sr="arg0">
+				<appClass>com.coolapk.market.activity.MainActivity</appClass>
+				<appPkg>com.coolapk.market</appPkg>
+				<label>酷市场</label>
+			</App>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>404</code>
+			<Str sr="arg0" ve="3">%root_path/preferences.xml</Str>
+			<Str sr="arg1" ve="3">%root_path_system/preferences.xml</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+	</Task>
+</TaskerData>

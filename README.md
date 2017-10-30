@@ -4,20 +4,61 @@
 
 ## 说明
 通过tasker处理，统一app主题[背景壁纸\主色调]
+* [支付宝alipay](#支付宝alipay)
+* [酷安coolapk](#酷安coolapk)
 * [快牙kuaiya](#快牙kuaiya)
 * [网易云音乐netease-cloud-music](#网易云音乐netease-cloud-music)
+* [qq](#qq)
+* [rainpaper](#rainpaper)
 * [淘宝taobao](#淘宝taobao)
 * [滴答清单ticktick](#滴答清单ticktick)
+* [tsf桌面](#tsf桌面)
 * [via浏览器via-browser](#via浏览器via-browser)
 * [微信wechat](#微信wechat)
     
     
+------------
+## 支付宝alipay
+### 说明
+* 安装tasker
+* 导入tasker项目
+* 创建profile->event->system->Wallpaper Changed，关联导入的任务
+* 配置根路径[root_path]变量为自己的路径
+* 配置壁纸模糊程度[blur_degree]，默认值为[40]
+* 必须先在支付宝设置中手动自定义聊天背景
+* 需要[tasker-common](https://github.com/bjc5233/tasker-common)中的[tasker-comm-img-blur]模块支持
+* 目前actionBar颜色无法动态适配
 
 
+### 预览
+<div align=center><img height="960" width="570" src="https://github.com/bjc5233/tasker-app-theme/raw/master/alipay/resources/Screenshot_2017-10-30-14-14-46-179"/></div>
 
 
+    
+    
+------------
+## 酷安coolapk
+### 说明
+* 安装tasker
+* 导入tasker项目
+* 创建profile->event->system->Wallpaper Changed，关联导入的任务
+* 配置根路径[root_path]变量为自己的路径
+* 进入酷安应用->主题风格->配置自定义颜色->颜色随便选择
+* 主页背景色跟随壁纸，需要tasker-common中的[tasker-comm-wallpaper-color]模块支持
 
 
+### 预览
+<div align=center><img height="960" width="570" src="https://github.com/bjc5233/tasker-app-theme/raw/master/coolapk/resources/Screenshot_2017-10-30-14-08-07-454"/></div>
+<br>
+<div align=center><img height="960" width="570" src="https://github.com/bjc5233/tasker-app-theme/raw/master/coolapk/resources/Screenshot_2017-10-30-14-13-16-575"/></div>
+
+  
+  
+  
+  
+  
+  
+  
 ------------
 ## 快牙kuaiya
 ### 说明
@@ -61,6 +102,35 @@
 
 
 	 
+
+------------
+## qq
+### 说明
+* 安装tasker
+* 导入tasker项目
+* 创建profile->event->system->Wallpaper Changed，关联导入的任务
+* 配置根路径[root_path]变量为自己的路径
+* 配置当前皮肤背景名[skin_wallpaper_path]
+* 配置背景模糊程度[blur_degree]，默认值为[40]
+* [tasker-common](https://github.com/bjc5233/tasker-common)中的[tasker-comm-img-blur]模块支持
+* 必须先手动在QQ设置中自定义聊天背景
+* 目前actionBar颜色无法动态适配
+
+
+### 预览
+<div align=center><img height="960" width="540" src="https://github.com/bjc5233/tasker-app-theme/raw/master/qq/resources/Screenshot_2017-10-30-14-20-53-966"/></div>
+
+	 
+	 
+	 
+	 
+------------
+## rainpaper
+
+	 
+	 
+	 
+	 
 ------------
 ## 淘宝taobao
 ### 说明
@@ -99,6 +169,13 @@
 <div align=center><img height="960" width="540" src="https://github.com/bjc5233/tasker-app-theme/raw/master/ticktick/resources/demo2.png"/></div>
      
 
+
+
+	 
+------------
+## tsf桌面
+### 说明
+动态更新tsf文件夹颜色[目前使用不方便，需要手动重启tsf桌面才会生效]
 
 
 	 

@@ -1,0 +1,58 @@
+<TaskerData sr="" dvi="1" tv="4.9u3m">
+	<Task sr="task47">
+		<cdate>1506177452701</cdate>
+		<edate>1506836566237</edate>
+		<id>47</id>
+		<nme>theme-alipay</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>300</code>
+			<label>必须先自定义聊天背景</label>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<label>配置根路径</label>
+			<Str sr="arg0" ve="3">%root_path</Str>
+			<Str sr="arg1" ve="3">/storage/sdcard1/software_me/tasker/themeAlipay</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<label>配置聊天背景图片路径</label>
+			<Str sr="arg0" ve="3">%img_path</Str>
+			<Str sr="arg1" ve="3">/storage/sdcard0/alipay/chatbg/57bde9f68d695e49</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<label>配置图片模糊程度</label>
+			<Str sr="arg0" ve="3">%blur_degree</Str>
+			<Str sr="arg1" ve="3">40</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>404</code>
+			<Str sr="arg0" ve="3">/data/system/users/0/wallpaper</Str>
+			<Str sr="arg1" ve="3">%root_path/wallpaper.jpg</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>130</code>
+			<label>模糊图片</label>
+			<Str sr="arg0" ve="3">comm-img-blur</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%root_path/wallpaper.jpg;%img_path;%blur_degree</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

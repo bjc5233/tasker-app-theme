@@ -1,9 +1,9 @@
 <TaskerData sr="" dvi="1" tv="4.9u3m">
 	<Task sr="task39">
 		<cdate>1503394890147</cdate>
-		<edate>1506314440171</edate>
+		<edate>1506865844437</edate>
 		<id>39</id>
-		<nme>切换壁纸更新微信背景</nme>
+		<nme>theme-wechat</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>300</code>
@@ -13,7 +13,7 @@
 			<code>547</code>
 			<label>配置根路径</label>
 			<Str sr="arg0" ve="3">%root_path</Str>
-			<Str sr="arg1" ve="3">/storage/sdcard1/software_me/tasker/wechat</Str>
+			<Str sr="arg1" ve="3">/storage/sdcard1/software_me/tasker/themeWechat</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -95,7 +95,7 @@ var setting_xml2 = serializer.serializeToString(xmlDoc);</Str>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">comm-trans2hex-color</Str>
+			<Str sr="arg0" ve="3">comm-color-trans2hex</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -121,7 +121,7 @@ var setting_xml2 = serializer.serializeToString(xmlDoc);</Str>
 		<Action sr="act9" ve="7">
 			<code>130</code>
 			<label>模糊图片</label>
-			<Str sr="arg0" ve="3">comm-image-blur</Str>
+			<Str sr="arg0" ve="3">comm-img-blur</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>

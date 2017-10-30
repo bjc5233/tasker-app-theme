@@ -1,0 +1,44 @@
+<TaskerData sr="" dvi="1" tv="4.9u3m">
+	<Task sr="task38">
+		<cdate>1505654779956</cdate>
+		<edate>1506836588102</edate>
+		<id>38</id>
+		<nme>theme-tsf</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<label>配置根路径</label>
+			<Str sr="arg0" ve="3">%root_path</Str>
+			<Str sr="arg1" ve="3">/storage/sdcard1/software_me/tasker/themeTsf</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<label>配置颜色</label>
+			<Str sr="arg0" ve="3">%background_color</Str>
+			<Str sr="arg1" ve="3">%WALLPAPER_COLOR_RGB,2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">comm-img-paint-png</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%background_color;%root_path/widget_folder_back.png;%root_path/widget_folder_back_new.png</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>404</code>
+			<Str sr="arg0" ve="3">%root_path/widget_folder_back_new.png</Str>
+			<Str sr="arg1" ve="3">/data/data/com.tsf.shell/cache/theme/images/widget_folder_back.png</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+	</Task>
+</TaskerData>

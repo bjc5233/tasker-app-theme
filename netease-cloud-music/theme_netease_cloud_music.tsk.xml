@@ -1,15 +1,15 @@
 <TaskerData sr="" dvi="1" tv="4.9u3m">
 	<Task sr="task83">
 		<cdate>1503560337361</cdate>
-		<edate>1506312434976</edate>
+		<edate>1507009739080</edate>
 		<id>83</id>
-		<nme>切换壁纸更新网易云音乐</nme>
+		<nme>theme-netease-cloud-music</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<label>配置根路径</label>
 			<Str sr="arg0" ve="3">%root_path</Str>
-			<Str sr="arg1" ve="3">/storage/sdcard1/software_me/tasker/neteaseCloudMusic</Str>
+			<Str sr="arg1" ve="3">/storage/sdcard1/software_me/tasker/themeNeteaseCloudMusic</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
